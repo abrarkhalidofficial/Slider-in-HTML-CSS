@@ -13,6 +13,7 @@ body {
   font-family: "Jost", sans-serif;
 }
 .main {
+  width: 100%;
   max-width: 1500px;
   display: flex;
   justify-content: center;
@@ -20,6 +21,7 @@ body {
   margin: auto;
   height: 100%;
   color: white;
+  flex-wrap: wrap;
 }
 .card1 {
   width: 25%;
@@ -50,24 +52,46 @@ body {
   font-weight: bold;
 }
 .card__svg svg {
-stroke: #3a3a3a;
+  stroke: #3a3a3a;
 }
 .account {
   font-size: 12px;
   color: #0f9442;
 }
-.account a{
-    color: #3a3a3a;
-    text-decoration: none;
+.account a {
+  color: #3a3a3a;
+  text-decoration: none;
 }
 .description {
   padding: 0em 1em 1em 1em;
   font-size: 14px;
 }
-
+@media(max-width: 810px){
+    .card1 {
+        width: 40%;
+      }
+}
+@media(max-width: 670px){
+    .card1 {
+        width: 70%;
+      }
+}
+/* @media(max-width: 770px) {
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .name__heading {
+        flex-direction: column;
+        align-items: center;
+      }
+      /* .name {
+        font-size: 18px;
+        font-weight: bold;
+      } */
+} */
 
 /* --------------------------------abrar code---------------------- */
-
 
 .tesmonianl {
   width: 100%;
