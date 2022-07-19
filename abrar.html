@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Swipper</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+
     <head>
         <body>
-            <section class="tesmonianl" id="tesmonianl">
-                <div class="title_text">
-                  <p>TESTIMONITAL</p>
-                  <h1>What client says</h1>
-                </div>
-                <div class="tesmonianl_row">
-                  <div class="tesmonianl_col">
+            <section class="tesmonianl swiper" id="tesmonianl">
+
+                <div class="tesmonianl_row swiper-wrapper">
+                  <div class="tesmonianl_col swiper-slide">
                     <div class="user">
                       <img src="./img/hammad_img_1.JPG" />
                       <div class="user_info">
@@ -30,7 +29,7 @@
                       Traveller | CS | K2bc - GGLA | Graphic Designer - 10 National Awards | Photographer | Writer | Filmmaker | Fast'14 | Lums
                     </p>
                   </div>
-                  <div class="tesmonianl_col">
+                  <div class="tesmonianl_col swiper-slide">
                     <div class="user">
                       <img src="./img/hammad_img_2.JPG" />
                       <div class="user_info">
@@ -45,7 +44,7 @@
                       Traveller | CS | K2bc - GGLA | Graphic Designer - 10 National Awards | Photographer | Writer | Filmmaker | Fast'14 | Lums
                     </p>
                   </div>
-                  <div class="tesmonianl_col">
+                  <div class="tesmonianl_col swiper-slide ">
                     <div class="user">
                       <img src="./img/hammad_img_3.JPG" />
                       <div class="user_info">
@@ -61,6 +60,14 @@
                     </p>
                   </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
               </section>
+              
         </body>
+
+        <script src="./js/swiper-bundle.min.js"></script>
+        <script src="./js/scropt.js"></script>
     </head>
